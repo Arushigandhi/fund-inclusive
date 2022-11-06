@@ -1,0 +1,31 @@
+@import "../variables";
+
+.container {
+  background-color: $light;
+  height: 89vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  .card {
+    border: 1px solid #e7ecef;
+    width: 30rem;
+    :global {
+      .ant-card-head {
+        text-align: center;
+        border-bottom: none;
+        font-size: 2rem;
+        padding-top: 1rem;
+      }
+    }
+    .loginBtn {
+      width: 100%;
+      height: 2.8rem;
+      margin-top: 2rem;
+      font-weight: 500;
+    }
+    a {
+      font-weight: 500;
+    }
+  }
+}

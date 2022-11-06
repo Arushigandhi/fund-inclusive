@@ -1,0 +1,25 @@
+@import "../variables";
+
+.noneBlock {
+  border: 2px dashed #ffe1e6;
+  height: 10rem;
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  p {
+    margin: auto;
+    color: $grey;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}
+
+.comingSoonBlock {
+  margin-top: 5rem;
+  p {
+    margin-top: 2.5rem;
+    color: $grey;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+}

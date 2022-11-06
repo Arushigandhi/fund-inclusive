@@ -1,0 +1,45 @@
+@import "../variables";
+
+.container {
+  padding-top: 7rem;
+  padding-bottom: 5rem;
+  width: 60%;
+  margin: auto;
+  .collapse {
+    :global {
+      .ant-collapse {
+        background-color: #fff;
+        border: 1px solid #e3e8ed;
+      }
+      .ant-collapse-item {
+        padding: 1.3rem;
+      }
+      .ant-collapse-content {
+        border-top: 0;
+      }
+    }
+  }
+  .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $grey;
+    margin-top: 2rem;
+  }
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+  }
+  :global {
+    .ant-layout {
+      background-color: $light;
+      border: 1px solid #e3e8ed;
+    }
+    .ant-menu-inline.ant-menu-root .ant-menu-item,
+    .ant-menu-inline.ant-menu-root .ant-menu-submenu-title {
+      padding: 2rem 0rem;
+      margin: 0;
+      margin-bottom: 2rem;
+    }
+  }
+}
