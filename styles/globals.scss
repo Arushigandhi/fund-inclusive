@@ -30,3 +30,7 @@ a {
 ::-webkit-scrollbar-thumb {
   background: #f8fafb;
 }
+
+.ant-message {
+  z-index: 10000;
+}
