@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
             name="keywords"
             content="bugbase, bugbounty, hacking, CTF, india, programs, hacktivity, bugs, cybersecurity, security, technology, pentesting, cybercrime, infosec, jira, integrations, reports, ethical hacking, marketplace, cyberattack"
           /> */}
-          <link rel="icon" href="/favicon.ico" />
+          {/* <link rel="icon" href="/favicon.ico" /> */}
         </Head>
         <Component {...pageProps} />
       </AuthUserProvider>
