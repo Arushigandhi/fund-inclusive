@@ -40,7 +40,12 @@ const Sidebar = () => {
     >
       <Link href="/">
         <div className={Styles.sidebarHeading}>
-          <Image src="/logo.svg" width={110} preview={false} />
+          <Image
+            src="/fundinc-blue.png"
+            width={110}
+            preview={false}
+            className={Styles.img}
+          />
         </div>
       </Link>
       <nav className={Styles.sidebarItems}>

@@ -8,7 +8,7 @@ export default function Header() {
     <div className={Styles.header}>
       <Link href="/">
         <Image
-          src="/logo.svg"
+          src="/fundinc-blue.png"
           width={110}
           preview={false}
           className={Styles.img}

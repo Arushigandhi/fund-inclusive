@@ -38,7 +38,7 @@ export default function dashboard() {
           </span>
         </p>
         <div style={{ float: "right" }}>
-          <Image src="/love.svg" width={80} height={80} />
+          <Image src="/assets/love.svg" width={80} height={80} />
         </div>
       </Card>
     </DashboardLayout>

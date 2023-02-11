@@ -6,7 +6,7 @@ import { AuthUserProvider } from "../context/AuthUserContext";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
-  ConfigProvider.config({ theme: { primaryColor: "#ff385c" } });
+  ConfigProvider.config({ theme: { primaryColor: "#4a60e9" } });
 
   return (
     <ConfigProvider>

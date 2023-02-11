@@ -25,7 +25,7 @@ export default function Navbar() {
           <Row align="center">
             <Link href="/">
               <Image
-                src="/logo-full.svg"
+                src="/fundinc-blue.png"
                 width={200}
                 preview={false}
                 className={Styles.img}

@@ -8,7 +8,7 @@ export default function Footer() {
     <Row className={Styles.footer} align="space-between">
       <Link href="/">
         <Image
-          src="/logo.svg"
+          src="/fundinc-blue.png"
           width={90}
           preview={false}
           className={Styles.img}

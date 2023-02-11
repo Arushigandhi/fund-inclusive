@@ -146,7 +146,7 @@ export default function Home() {
               >
                 <Avatar className={Styles.img} size={128} src="/2.jpg" />
                 <h1>Arushi Gandhi</h1>
-                <Tag color="red" style={{ margin: "1rem 0" }}>
+                <Tag color="blue" style={{ margin: "1rem 0" }}>
                   Founder & CEO
                 </Tag>
               </a>
@@ -158,7 +158,7 @@ export default function Home() {
               >
                 <Avatar className={Styles.img} size={128} src="/1.jpg" />
                 <h1>Deepesh Garg </h1>
-                <Tag color="red" style={{ margin: "1rem 0" }}>
+                <Tag color="blue" style={{ margin: "1rem 0" }}>
                   Founder & COO
                 </Tag>
               </a>
