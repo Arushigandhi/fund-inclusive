@@ -8,6 +8,7 @@ import { useAuth } from "context/AuthUserContext";
 
 const DashboardHeader = ({ title, subtitle }) => {
   const { authUser, loading, signOut } = useAuth();
+  console.log(authUser);
   const profileMenu = (
     <Menu>
       {/* <Menu.Item>Profile</Menu.Item> */}

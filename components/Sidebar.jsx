@@ -21,7 +21,7 @@ const Sidebar = () => {
       path: "/companies",
     },
     {
-      name: "Portfolio",
+      name: "Engaged",
       icon: <BsBriefcase className={Styles.navIcon} />,
       path: "/portfolio",
     },
@@ -41,7 +41,7 @@ const Sidebar = () => {
       <Link href="/">
         <div className={Styles.sidebarHeading}>
           <Image
-            src="/fundinc-blue.png"
+            src="/gs.png"
             width={110}
             preview={false}
             className={Styles.img}

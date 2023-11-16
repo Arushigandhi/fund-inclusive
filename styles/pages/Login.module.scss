@@ -19,6 +19,9 @@
       }
     }
     .loginBtn {
+      background-color: $highlight;
+      border: none;
+      border-radius: 2px;
       width: 100%;
       height: 2.8rem;
       margin-top: 2rem;

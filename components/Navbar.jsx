@@ -25,8 +25,8 @@ export default function Navbar() {
           <Row align="center">
             <Link href="/">
               <Image
-                src="/fundinc-blue.png"
-                width={200}
+                src="/gs.png"
+                width={80}
                 preview={false}
                 className={Styles.img}
               />
@@ -41,7 +41,10 @@ export default function Navbar() {
               FAQ
             </a> */}
             <Button className={Styles.emptyButton}>
-              <Link href="/raise">RAISE CAPITAL</Link>
+              <Link href="/contact">JOIN US</Link>
+            </Button>
+            <Button className={Styles.emptyButton}>
+              <Link href="/upload">APPLY TO HIRE</Link>
             </Button>
             <Button className={Styles.filledButton}>
               <Link href="/login">LOGIN</Link>

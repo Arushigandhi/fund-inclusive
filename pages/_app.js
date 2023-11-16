@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <ConfigProvider>
       <AuthUserProvider>
         <Head>
-          <title>Fund Inc</title>
+          <title>GirlScript | Empower Her Code: Unleashing Potential.</title>
           {/* <meta
             name="description"
             content="BugBase, a managed marketplace of ethical hackers that hosts crowdsourced bug bounty programs for companies, ensuring continuous testing and significantly reducing the chance of a cyberattack"

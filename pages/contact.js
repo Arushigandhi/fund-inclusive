@@ -5,7 +5,7 @@ import { Button, Col, Form, Input, message, Row, Select } from "antd";
 
 const { TextArea } = Input;
 
-export default function Home() {
+export default function contact() {
   const [form] = Form.useForm();
   const handleSubmit = async (values) => {
     db.collection("raise-form")
@@ -29,7 +29,7 @@ export default function Home() {
         <div className={Styles.box}>
           <Row>
             <Col span={12}>
-              <h2 className={Styles.title}>REACH OUT</h2>
+              <h2 className={Styles.title}>JOIN OUR COMMUNITY</h2>
               <h1 className={Styles.subtitle}>We’d love to hear from you.</h1>
               <p className={Styles.text}>
                 Please fill out this form and we’ll be in touch.
@@ -51,53 +51,24 @@ export default function Home() {
                     { required: true, message: "Please input your email!" },
                   ]}
                 >
-                  <Input
-                    size="large"
-                    placeholder="Company's Email"
-                    type={"email"}
-                  />
+                  <Input size="large" placeholder="Email" type={"email"} />
                 </Form.Item>
-                <Form.Item
-                  name="company"
-                  rules={[
-                    {
-                      required: true,
-                      message: "Please input your company name!",
-                    },
-                  ]}
-                >
-                  <Input
-                    size="large"
-                    placeholder="Company's Name"
-                    type={"text"}
-                  />
-                </Form.Item>
-                <Form.Item name="website">
-                  <Input
-                    size="large"
-                    placeholder="Company's Website"
-                    type={"text"}
-                  />
-                </Form.Item>
+
                 <Form.Item name="linkedin">
                   <Input
                     size="large"
-                    placeholder="Company's LinkedIn"
+                    placeholder="LinkedIn Profile"
                     type={"text"}
                   />
                 </Form.Item>
-
                 <Form.Item name="stage">
                   <Select
                     size="large"
-                    placeholder="Stage of Company"
+                    placeholder="Type of Individual"
                     type={"text"}
                   >
-                    <Select.Option value="pre-seed">Pre-Seed</Select.Option>
-                    <Select.Option value="seed">Seed</Select.Option>
-                    <Select.Option value="series-a">Series A</Select.Option>
-                    <Select.Option value="series-b">Series B</Select.Option>
-                    <Select.Option value="series-c">Series C</Select.Option>
+                    <Select.Option value="investor">Investor</Select.Option>
+                    <Select.Option value="startup">Startups</Select.Option>
                     <Select.Option value="other">Other</Select.Option>
                   </Select>
                 </Form.Item>
@@ -115,7 +86,7 @@ export default function Home() {
                   htmlType="submit"
                   className={Styles.filledButton}
                 >
-                  Submit
+                  Contact Us
                 </Button>
               </Form>
             </Col>
